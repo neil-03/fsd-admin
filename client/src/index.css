@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+html,
+body,
+#root,
+.app{
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* target the track */
+::-webkit-scrollbar-track {
+    background: #7d739b;
+  }
+  
+  /* handle */
+  ::-webkit-scrollbar-thumb {
+    background: #170d35;
+  }
+  
+  /* handle on hover */
+  ::-webkit-scrollbar-track:hover {
+    background: #170d35;
+  }
